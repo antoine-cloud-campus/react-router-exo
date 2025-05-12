@@ -4,8 +4,7 @@ import "./header.css";
 
 const Header = () => {
     return (
-        <div>
-
+        <header>
             <Navbar expand="lg" className="bg-body-tertiary">
                 <Container>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -18,7 +17,7 @@ const Header = () => {
                     </Navbar.Collapse>
                 </Container>
             </Navbar>
-        </div>
+        </header>
 
     )
 }
